@@ -361,3 +361,11 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+# Python virtual environment
+.venv/
+
+# Kaggle Steam dataset (too large for GitHub)
+games.csv
+games_metadata.json
+recommendations.csv
+users.csv

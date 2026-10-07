@@ -48,9 +48,13 @@ def main():
     # Load the CSV files
     # Make sure these files are in the same directory as this script
     try:
-        ratings = pd.read_csv("recommendations.csv")
+        # Only load the columns the matrix needs; the full file doesn't fit in memory
+        ratings = pd.read_csv(
+            "recommendations.csv",
+            usecols=["app_id", "user_id", "is_recommended"],
+            dtype={"app_id": "int32", "user_id": "int32", "is_recommended": "bool"},
+        )
         games = pd.read_csv("games.csv")
-        users = pd.read_csv("users.csv")
         game_meta = pd.read_json("games_metadata.json", lines=True)
     except FileNotFoundError as e:
         print(f"Error: {e}")

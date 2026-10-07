@@ -26,7 +26,6 @@
   <ItemGroup>
     <Content Include="games.csv" />
     <Content Include="games_metadata.json" />
-    <Content Include="Program.cs" />
     <Content Include="recommendations.csv" />
     <Content Include="users.csv" />
   </ItemGroup>
