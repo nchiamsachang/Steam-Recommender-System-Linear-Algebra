@@ -56,3 +56,8 @@ Loading the reviews takes about three minutes before the prompt appears. After t
 - Enter `quit` to exit.
 
 The project can also be opened in Visual Studio through `Linear algebra.sln`.
+
+## Team
+
+- [Nathan Chiamsachang](https://github.com/nchiamsachang)
+- [Trey Rajsombath](https://github.com/TreyRajsombath)
