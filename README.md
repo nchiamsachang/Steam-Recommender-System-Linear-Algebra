@@ -38,9 +38,11 @@ The data is not included in this repository because it is too large for GitHub. 
 Requires Python 3. From the repository root:
 
 ```powershell
-python -m venv .venv
+py -m venv .venv
 .venv\Scripts\python.exe -m pip install numpy pandas scipy scikit-learn
 ```
+
+`py` is the Python launcher that the python.org installer adds on Windows. On other systems use `python3` and `.venv/bin/python`.
 
 ## Running
 
@@ -56,6 +58,17 @@ Loading the reviews takes about three minutes before the prompt appears. After t
 - Enter `quit` to exit.
 
 The project can also be opened in Visual Studio through `Linear algebra.sln`.
+
+## Tests
+
+The `tests` folder runs the whole pipeline on a small made-up dataset (10 games, 28 reviews), so the tests need neither the Kaggle download nor the three-minute load:
+
+```powershell
+.venv\Scripts\python.exe -m pip install pytest
+.venv\Scripts\python.exe -m pytest tests -v
+```
+
+[TESTING.md](TESTING.md) describes the dataset, what each test checks, the latest results, and the three bugs the tests found.
 
 ## Team
 

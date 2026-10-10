@@ -369,3 +369,7 @@ games.csv
 games_metadata.json
 recommendations.csv
 users.csv
+# ...but the tiny synthetic dataset the tests use is part of the repository
+!tests/data/games.csv
+!tests/data/games_metadata.json
+!tests/data/recommendations.csv

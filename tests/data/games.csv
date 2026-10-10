@@ -1,0 +1,11 @@
+app_id,title,date_release,win,mac,linux,rating,positive_ratio,user_reviews,price_final,price_original,discount,steam_deck
+100,Portal,2007-10-10,true,true,true,Overwhelmingly Positive,98,5,9.99,9.99,0.0,true
+101,Portal 2,2011-04-18,true,true,true,Overwhelmingly Positive,98,4,9.99,9.99,0.0,true
+102,Half-Life 2,2004-11-16,true,true,true,Overwhelmingly Positive,97,3,9.99,9.99,0.0,true
+103,Stardew Valley,2016-02-26,true,true,true,Overwhelmingly Positive,98,5,14.99,14.99,0.0,true
+104,Terraria,2011-05-16,true,true,true,Overwhelmingly Positive,97,3,9.99,9.99,0.0,true
+105,Starbound,2016-07-22,true,true,true,Very Positive,91,2,14.99,14.99,0.0,true
+106,Hades,2020-09-17,true,true,false,Overwhelmingly Positive,98,3,24.99,24.99,0.0,true
+107,The Witcher 3: Wild Hunt (GOTY),2015-05-18,true,false,false,Overwhelmingly Positive,96,2,39.99,39.99,0.0,true
+200,Game Without Metadata,2020-01-01,true,false,false,Mixed,50,1,4.99,4.99,0.0,false
+201,Game Nobody Reviewed,2021-01-01,true,false,false,Mixed,50,0,4.99,4.99,0.0,false
